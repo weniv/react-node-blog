@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/react-node-blog/static/css/main.5f8f3956.css",
+    "main.js": "/react-node-blog/static/js/main.cc280c93.js",
+    "static/media/img2.jpg": "/react-node-blog/static/media/img2.851c7486be2a4e6d5e7b.jpg",
+    "static/media/background.jpg": "/react-node-blog/static/media/background.9d8ffdf2b026e3a71002.jpg",
+    "static/media/post-img2.jpg": "/react-node-blog/static/media/post-img2.c4e40cfbc86df18a343c.jpg",
+    "static/media/profile.jpg": "/react-node-blog/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
+    "static/media/post-img6.jpg": "/react-node-blog/static/media/post-img6.69640c46204f411d427f.jpg",
+    "static/media/post-img4.jpg": "/react-node-blog/static/media/post-img4.8ab4f22d7b49f1e8b85e.jpg",
+    "static/media/post-img5.jpg": "/react-node-blog/static/media/post-img5.4f5e756dff24b6140f48.jpg",
+    "static/media/post-img3.jpg": "/react-node-blog/static/media/post-img3.b0c34d93141cc889fc73.jpg",
+    "static/media/post-img1.jpg": "/react-node-blog/static/media/post-img1.a6d2e5c9531ce3a90344.jpg",
+    "static/media/Github.svg": "/react-node-blog/static/media/Github.44eca8266047557a439218d2afc94622.svg",
+    "static/media/Logo.svg": "/react-node-blog/static/media/Logo.ea185720a23355dde4b383c500d5238d.svg",
+    "static/media/Twitter.svg": "/react-node-blog/static/media/Twitter.710e72afc7caf1b555e2ce576d59b6bc.svg",
+    "static/media/icon-modify.svg": "/react-node-blog/static/media/icon-modify.a0c44dddeeb034405fbd.svg",
+    "static/media/icon-register.svg": "/react-node-blog/static/media/icon-register.14da19af764629d809f4443e36ee3427.svg",
+    "static/media/Instagram.svg": "/react-node-blog/static/media/Instagram.257baf24eaca6782ee43c4f644618e3e.svg",
+    "static/media/Facebook.svg": "/react-node-blog/static/media/Facebook.3bf3b52a20142d76f4db7786706685a0.svg",
+    "static/media/icon-delete.svg": "/react-node-blog/static/media/icon-delete.cdfd12b1245deea1ae59.svg",
+    "static/media/icon-modify-white.svg": "/react-node-blog/static/media/icon-modify-white.7936232650b55b108bd177114b80eedb.svg",
+    "static/media/icon-image.svg": "/react-node-blog/static/media/icon-image.5ee70d208dd203586758.svg",
+    "static/media/icon-logout.svg": "/react-node-blog/static/media/icon-logout.24d6f1e18bf12b306a121ff821cd4266.svg",
+    "static/media/icon-save.svg": "/react-node-blog/static/media/icon-save.8857aa83c9b6f312a8f4.svg",
+    "static/media/icon-like.svg": "/react-node-blog/static/media/icon-like.ea57499461b6f402eadd.svg",
+    "static/media/icon-delete-white.svg": "/react-node-blog/static/media/icon-delete-white.b1c660db8a27a74dad21.svg",
+    "static/media/icon-save-white.svg": "/react-node-blog/static/media/icon-save-white.05943bbb17b95d133b6b.svg",
+    "static/media/icon-login.svg": "/react-node-blog/static/media/icon-login.8e36ae402cd69fd4cdea4c5934019277.svg",
+    "static/media/icon-like-white.svg": "/react-node-blog/static/media/icon-like-white.547a2a003e8f8143fc9c.svg",
+    "static/media/noimg.svg": "/react-node-blog/static/media/noimg.09842aaa615e49962b18ca1a7e1c7c99.svg",
+    "index.html": "/react-node-blog/index.html",
+    "static/media/ArrowLeft-blue.svg": "/react-node-blog/static/media/ArrowLeft-blue.a8f040986b41c7713bf5.svg",
+    "static/media/ArrowTop.svg": "/react-node-blog/static/media/ArrowTop.31b9123f76deea3066cd.svg",
+    "main.5f8f3956.css.map": "/react-node-blog/static/css/main.5f8f3956.css.map",
+    "main.cc280c93.js.map": "/react-node-blog/static/js/main.cc280c93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f8f3956.css",
+    "static/js/main.cc280c93.js"
+  ]
+}
