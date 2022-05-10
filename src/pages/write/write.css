@@ -1,0 +1,29 @@
+.write .title-input {
+	background: none;
+	border: none;
+	height: 6.4rem;
+	font-size: 3.2rem;
+	font-weight: bold;
+	width: calc(100% - 18rem);
+}
+.write .title-input:not(:placeholder-shown) {
+	border: none;
+}
+@media (max-width: 1024px) {
+	.write .title-input {
+		width: 100%;
+		margin-top: 5.2rem;
+	}
+}
+.write textarea {
+	width: 100%;
+	min-height: 50rem;
+	border: 0;
+	font-family: inherit;
+	border-radius: 0.8rem;
+	padding: 2rem 2rem;
+}
+.write textarea::placeholder {
+	font-size: 1.6rem;
+	color: var(--gray-color);
+}

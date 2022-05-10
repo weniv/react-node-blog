@@ -1,0 +1,40 @@
+label {
+	display: block;
+	margin-bottom: 0.4rem;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+/* default */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	width: 100%;
+	height: 4rem;
+	border: 1px solid var(--gray-background);
+	border-radius: var(--border-radius);
+	background: var(--gray-background);
+	text-indent: 1rem;
+}
+
+/* focus */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+	background: var(--white-color);
+}
+
+/* placeholder */
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder {
+	color: var(--gray-text);
+}
+
+/* filled */
+input[type="text"]:not(:placeholder-shown),
+input[type="password"]:not(:placeholder-shown),
+input[type="email"]:not(:placeholder-shown) {
+	border: 1px solid var(--border-color);
+	background: var(--white-color);
+}
