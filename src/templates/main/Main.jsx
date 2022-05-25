@@ -4,12 +4,12 @@ import Posts from "../../components/posts/Posts";
 
 import "./main.css";
 
-export default function Main({ profileImg }) {
+export default function Main({ profileImg, categoriese, posts }) {
 	return (
 		<main>
 			<div className="max-width">
-				<Posts profileImg={profileImg} />
-				<About profileImg={profileImg} />
+				<Posts profileImg={profileImg} posts={posts}/>
+				<About profileImg={profileImg} categoriese={categoriese}/>
 			</div>
 		</main>
 	);

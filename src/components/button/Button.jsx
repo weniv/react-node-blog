@@ -4,13 +4,13 @@ import classnames from "classnames";
 
 import "./button.css";
 
-export default function Button({ type, href, children, color, fullWidth }) {
+export default function Button({ type, href, children, color, fullWidth, onClick }) {
 	return href ? (
 		<Link to={href} className={classnames("button", fullWidth, color)}>
 			{children}
 		</Link>
 	) : (
-		<button type={type} className={classnames("button", fullWidth, color)}>
+		<button type={type} onClick={onClick} className={classnames("button", fullWidth, color)}>
 			{children}
 		</button>
 	);

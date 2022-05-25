@@ -1,16 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 import WrapBox from "../../components/layouts/wrap/WrapBox";
 import Button from "../../components/button/Button";
 import Input from "../../components/input/Input";
 
-export default function Login() {
+export default function Login({loginHandler}) {
+	const navigate = useNavigate()
+
+	function handleOnSubmit(e) {
+		e.preventDefault()
+		loginHandler()
+	}
+
 	return (
 		<>
 			<WrapBox>
 				<h2>Login</h2>
-				<form>
+				<form onSubmit={handleOnSubmit}>
 					<ul>
 						<li>
 							<Input label="Email" type="email" id="user-email" placeholder="ex) blog@blog.com" />

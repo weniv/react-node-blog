@@ -9,7 +9,8 @@ import twitter from "../../../images/Twitter.svg";
 import instagram from "../../../images/Instagram.svg";
 import github from "../../../images/Github.svg";
 
-export default function About({ profileImg }) {
+export default function About({ profileImg, categoriese }) {
+	const categoriesList = categoriese.map((category)=><li><Link to={`#${category}`}>{category}</Link></li>)
 	return (
 		<aside className="about">
 			<h2>About Me</h2>
@@ -18,27 +19,7 @@ export default function About({ profileImg }) {
 			<p className="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			<h3>Categories</h3>
 			<ul className="categories">
-				<li>
-					<Link to="#">Life</Link>
-				</li>
-				<li>
-					<Link to="#">Style</Link>
-				</li>
-				<li>
-					<Link to="#">Tech</Link>
-				</li>
-				<li>
-					<Link to="#">Music</Link>
-				</li>
-				<li>
-					<Link to="#">Sport</Link>
-				</li>
-				<li>
-					<Link to="#">Photo</Link>
-				</li>
-				<li>
-					<Link to="#">Develop</Link>
-				</li>
+				{categoriesList}
 			</ul>
 			<h3>Follow</h3>
 			<ul className="sns">

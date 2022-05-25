@@ -11,7 +11,7 @@ import logout from "../../../images/icon-logout.svg";
 import login from "../../../images/icon-login.svg";
 import register from "../../../images/icon-register.svg";
 
-export default function Header({ isLogined, profileImg }) {
+export default function Header({ loginHandler, isLogined, profileImg }) {
 	return (
 		<header id="header">
 			<div className="max-width">
@@ -37,7 +37,7 @@ export default function Header({ isLogined, profileImg }) {
 								</Button>
 							</li>
 							<li>
-								<Button color="white">
+								<Button color="white" onClick={loginHandler}>
 									<img src={logout} alt="" />
 									<span>Logout</span>
 								</Button>
