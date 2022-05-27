@@ -43,7 +43,7 @@ function App() {
 				<Route path="/" element={<Main profileImg={profileImg} posts={posts} categoriese={categoriese} />} />
 				<Route path="/login" element={<Login loginHandler={loginHandler} isLogined={isLogined} />} />
 				<Route path="/register" element={<Register isLogined={isLogined} />} />
-				<Route path="/mypage" element={<Mypage profileImg={profileImg} />} />
+				<Route path="/mypage" element={<Mypage profileImg={profileImg} isLogined={isLogined} />} />
 				<Route path="/view/:id" element={<View posts={posts} location={location} />} />
 				<Route path="/write" element={<Write isLogined={isLogined} />} />
 				<Route path="*" element={<NotFound />} />
