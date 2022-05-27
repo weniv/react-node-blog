@@ -10,7 +10,11 @@ import instagram from "../../../images/Instagram.svg";
 import github from "../../../images/Github.svg";
 
 export default function About({ profileImg, categoriese }) {
-	const categoriesList = categoriese.map((category)=><li><Link to={`#${category}`}>{category}</Link></li>)
+	const categoriesList = categoriese.map((category, index) => (
+		<li key={index}>
+			<Link to={`#${category}`}>{category}</Link>
+		</li>
+	));
 	return (
 		<aside className="about">
 			<h2>About Me</h2>
@@ -18,9 +22,7 @@ export default function About({ profileImg, categoriese }) {
 			<p className="user-name">Chilli</p>
 			<p className="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			<h3>Categories</h3>
-			<ul className="categories">
-				{categoriesList}
-			</ul>
+			<ul className="categories">{categoriesList}</ul>
 			<h3>Follow</h3>
 			<ul className="sns">
 				<li>
