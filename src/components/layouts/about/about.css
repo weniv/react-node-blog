@@ -3,6 +3,7 @@
 	flex-shrink: 0;
 	align-self: flex-start;
 	padding: 4rem 2.4rem 7rem;
+	box-sizing: border-box;
 	border-radius: var(--border-radius);
 	background: var(--white-color);
 	text-align: center;
