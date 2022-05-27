@@ -1,12 +1,12 @@
 .banner {
 	position: relative;
-	background: url(../../../images/background.jpg) no-repeat 50% 50% / cover;
+	background: url(../../images/background.jpg) no-repeat 50% 50% / cover;
 	height: 27em;
 	margin-bottom: -7em;
 }
 
 .banner-contents {
-	width: 26rem;
+	width: 28rem;
 	padding: 7rem 0 14.5rem;
 	text-align: center;
 	color: var(--gray-background-light);
@@ -66,7 +66,7 @@
 		width: 44rem;
 	}
 }
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
 	.today {
 		font-size: 3rem;
 		padding-left: 0.2em;
