@@ -1,15 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./footer.css";
 
 export default function Footer() {
+	function handleScrollTop() {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	}
 	return (
 		<footer>
 			<div className="max-width">
-				<h2>©Wenaiv Corp.</h2>
-				<Link to="#header" className="top-button">
+				<h2>©Weniv Corp.</h2>
+				<button className="top-button" onClick={handleScrollTop}>
 					TOP
-				</Link>
+				</button>
 			</div>
 		</footer>
 	);

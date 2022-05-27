@@ -20,10 +20,11 @@ footer h2 {
 	right: 0;
 	width: 6.4rem;
 	height: 6.4rem;
+	padding-top: 2.2rem;
+	border: 0;
 	border-radius: var(--border-radius) var(--border-radius) 0 0;
 	background: var(--main-color) url(../../../images/ArrowTop.svg) no-repeat 50% 0.4rem / 4rem;
 	color: var(--white-color);
 	text-align: center;
-	line-height: 8.4rem;
 	font-weight: bold;
 }
