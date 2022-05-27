@@ -9,7 +9,7 @@ export default function Post({ id, profileImg, title, children, img, userName, c
 	return (
 		<Link to={`/view/${id}`} className="post">
 			<article>
-				<img src={img} alt="" />
+				<img src={process.env.PUBLIC_URL + img} alt="" />
 				<div className="contents-wrap">
 					<Category list={category} />
 					<h3>{title}</h3>

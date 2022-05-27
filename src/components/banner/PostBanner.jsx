@@ -11,7 +11,7 @@ export default function PostBanner({ post }) {
 	const createdWeek = week[postDate.getDay()];
 
 	return (
-		<div className="banner" style={{ backgroundImage: `url(${post.mainBg})` }}>
+		<div className="banner" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + post.mainBg})` }}>
 			<div className="max-width">
 				<div className="banner-contents">
 					<p className="today">

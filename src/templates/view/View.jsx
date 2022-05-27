@@ -23,7 +23,9 @@ export default function View({ posts, location }) {
 							<button className="btn-like">Like</button>
 						</div>
 						<hr />
-						<div className="view-contents">{post.contents.map((content, index) => (content.type === "p" ? <p key={index}>{content.text}</p> : <img src={content.src} alt="" />))}</div>
+						<div className="view-contents">
+							{post.contents.map((content, index) => (content.type === "p" ? <p key={index}>{content.text}</p> : <img src={process.env.PUBLIC_URL + content.src} alt="" />))}
+						</div>
 						<div className="btn-group">
 							<Link to="#" className="btn-modify">
 								<span className="a11y-hidden">modify</span>
