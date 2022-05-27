@@ -5,13 +5,13 @@ import Category from "../category/Category";
 
 import "./post.css";
 
-export default function Post({ profileImg, title, children, img, userName, created }) {
+export default function Post({ id, profileImg, title, children, img, userName, created, category }) {
 	return (
-		<Link to="/view" className="post">
+		<Link to={`/view/${id}`} className="post">
 			<article>
 				<img src={img} alt="" />
 				<div className="contents-wrap">
-					<Category list={["Life", "Style"]} />
+					<Category list={category} />
 					<h3>{title}</h3>
 					<Author userName={userName} created={created} profileImg={profileImg} />
 					<p className="post-description">{children}</p>
