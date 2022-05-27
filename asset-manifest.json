@@ -1,16 +1,8 @@
 {
   "files": {
-    "main.css": "/react-node-blog/static/css/main.5f8f3956.css",
-    "main.js": "/react-node-blog/static/js/main.cc280c93.js",
-    "static/media/img2.jpg": "/react-node-blog/static/media/img2.851c7486be2a4e6d5e7b.jpg",
+    "main.css": "/react-node-blog/static/css/main.efe4057c.css",
+    "main.js": "/react-node-blog/static/js/main.fba509d0.js",
     "static/media/background.jpg": "/react-node-blog/static/media/background.9d8ffdf2b026e3a71002.jpg",
-    "static/media/post-img2.jpg": "/react-node-blog/static/media/post-img2.c4e40cfbc86df18a343c.jpg",
-    "static/media/profile.jpg": "/react-node-blog/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
-    "static/media/post-img6.jpg": "/react-node-blog/static/media/post-img6.69640c46204f411d427f.jpg",
-    "static/media/post-img4.jpg": "/react-node-blog/static/media/post-img4.8ab4f22d7b49f1e8b85e.jpg",
-    "static/media/post-img5.jpg": "/react-node-blog/static/media/post-img5.4f5e756dff24b6140f48.jpg",
-    "static/media/post-img3.jpg": "/react-node-blog/static/media/post-img3.b0c34d93141cc889fc73.jpg",
-    "static/media/post-img1.jpg": "/react-node-blog/static/media/post-img1.a6d2e5c9531ce3a90344.jpg",
     "static/media/Github.svg": "/react-node-blog/static/media/Github.44eca8266047557a439218d2afc94622.svg",
     "static/media/Logo.svg": "/react-node-blog/static/media/Logo.ea185720a23355dde4b383c500d5238d.svg",
     "static/media/Twitter.svg": "/react-node-blog/static/media/Twitter.710e72afc7caf1b555e2ce576d59b6bc.svg",
@@ -32,11 +24,11 @@
     "index.html": "/react-node-blog/index.html",
     "static/media/ArrowLeft-blue.svg": "/react-node-blog/static/media/ArrowLeft-blue.a8f040986b41c7713bf5.svg",
     "static/media/ArrowTop.svg": "/react-node-blog/static/media/ArrowTop.31b9123f76deea3066cd.svg",
-    "main.5f8f3956.css.map": "/react-node-blog/static/css/main.5f8f3956.css.map",
-    "main.cc280c93.js.map": "/react-node-blog/static/js/main.cc280c93.js.map"
+    "main.efe4057c.css.map": "/react-node-blog/static/css/main.efe4057c.css.map",
+    "main.fba509d0.js.map": "/react-node-blog/static/js/main.fba509d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f8f3956.css",
-    "static/js/main.cc280c93.js"
+    "static/css/main.efe4057c.css",
+    "static/js/main.fba509d0.js"
   ]
 }
