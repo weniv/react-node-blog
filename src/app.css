@@ -101,3 +101,19 @@ textarea:focus {
 .link-underline:hover {
 	color: var(--main-color);
 }
+
+.not-found {
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.not-found h2 {
+	color: var(--main-color);
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.not-found p {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
