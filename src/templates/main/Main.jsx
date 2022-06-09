@@ -1,19 +1,21 @@
 import React from "react";
-import Banner from "../../components/banner/Banner";
+
+import BlogBanner from "../../components/banner/BlogBanner";
 import About from "../../components/layouts/about/About";
 
 import Posts from "../../components/posts/Posts";
 
 import "./main.css";
 
-export default function Main({ profileImg, categoriese, posts }) {
+export default function Main({ posts, users, blog }) {
 	return (
 		<>
-			<Banner type="text" />
+			<BlogBanner blog={blog} />
+
 			<main>
 				<div className="max-width">
 					<Posts posts={posts} />
-					<About profileImg={profileImg} categoriese={categoriese} />
+					<About users={users} />
 				</div>
 			</main>
 		</>

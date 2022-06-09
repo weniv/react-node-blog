@@ -15,6 +15,7 @@ export default function Button({ type, href, children, color, fullWidth, onClick
 		</button>
 	);
 }
+
 Button.defaultProps = {
 	type: "button",
 };

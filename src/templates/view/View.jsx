@@ -1,13 +1,15 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
+
 import WrapBox from "../../components/layouts/wrap/WrapBox";
 import Author from "../../components/author/Author";
 import Category from "../../components/category/Category";
-import PostBanner from "../../components/banner/PostBanner";
 
 import "./view.css";
-import { Link } from "react-router-dom";
+import PostBanner from "../../components/banner/PostBanner";
 
-export default function View({ posts, location }) {
+export default function View({ posts }) {
+	const location = useLocation().pathname.slice(1);
 	const post = posts.find((post) => post.id + "" === location.split("view/")[1]);
 
 	return (
@@ -24,7 +26,9 @@ export default function View({ posts, location }) {
 						</div>
 						<hr />
 						<div className="view-contents">
-							{post.contents.map((content, index) => (content.type === "p" ? <p key={index}>{content.text}</p> : <img src={process.env.PUBLIC_URL + content.src} alt="" />))}
+							{post.contents.map((content, index) =>
+								content.type === "p" ? <p key={"content" + index}>{content.text}</p> : <img key={"img" + index} src={process.env.PUBLIC_URL + content.src} alt="" />
+							)}
 						</div>
 						<div className="btn-group">
 							<Link to="#" className="btn-modify">

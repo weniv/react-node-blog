@@ -2,14 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./header.css";
+import useFetch from "../../../hooks/useFetch";
 import Button from "../../button/Button";
 
 // 이미지
-import logo from "../../../images/Logo.svg";
-import write from "../../../images/icon-modify-white.svg";
-import logout from "../../../images/icon-logout.svg";
-import login from "../../../images/icon-login.svg";
-import register from "../../../images/icon-register.svg";
+import logo from "../../../assets/Logo.svg";
+import write from "../../../assets/icon-modify-white.svg";
+import logout from "../../../assets/icon-logout.svg";
+import login from "../../../assets/icon-login.svg";
+import register from "../../../assets/icon-register.svg";
 
 export default function Header({ loginHandler, isLogined, profileImg }) {
 	return (

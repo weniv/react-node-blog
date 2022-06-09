@@ -2,12 +2,12 @@ import React from "react";
 
 import "./profile.css";
 
-import noImg from "../../images/noimg.svg";
+import noImg from "../../assets/noimg.svg";
 
 export default function Profile({ profileImg }) {
 	return (
 		<div className="profile-wrap">
-			{profileImg ? <img src={profileImg} alt="프로필" /> : <img src={noImg} alt="프로필 이미지 없음" />}
+			{profileImg ? <img src={process.env.PUBLIC_URL + profileImg} alt="프로필" /> : <img src={noImg} alt="프로필 이미지 없음" />}
 
 			<div className="btn-profile">
 				<label htmlFor="profile">

@@ -4,23 +4,25 @@ import "./about.css";
 import { Link } from "react-router-dom";
 
 // icon
-import facebook from "../../../images/Facebook.svg";
-import twitter from "../../../images/Twitter.svg";
-import instagram from "../../../images/Instagram.svg";
-import github from "../../../images/Github.svg";
+import facebook from "../../../assets/Facebook.svg";
+import twitter from "../../../assets/Twitter.svg";
+import instagram from "../../../assets/Instagram.svg";
+import github from "../../../assets/Github.svg";
 
-export default function About({ profileImg, categoriese }) {
-	const categoriesList = categoriese.map((category, index) => (
-		<li key={index}>
+export default function About({ users }) {
+	const user = users.find((user) => user.email === "chilli@blog.com");
+
+	const categoriesList = user.category.map((category, index) => (
+		<li key={`category${index}`}>
 			<Link to={`#${category}`}>{category}</Link>
 		</li>
 	));
 	return (
 		<aside className="about">
 			<h2>About Me</h2>
-			<img src={profileImg} alt="" className="user-profile" />
-			<p className="user-name">Chilli</p>
-			<p className="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			<img src={process.env.PUBLIC_URL + user.profileImg} alt="" className="user-profile" />
+			<p className="user-name">{user.name}</p>
+			<p className="user-description">{user.userInfo}</p>
 			<h3>Categories</h3>
 			<ul className="categories">{categoriesList}</ul>
 			<h3>Follow</h3>
