@@ -1,24 +1,19 @@
 import React from "react";
-
-import "./banner.css";
+import BannerWrap from "./BannerWrap";
 
 export default function PostBanner({ post }) {
-	const postDate = new Date(post.created);
-	const week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 	const month = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "August", "Sep.", "Oct.", "Nov.", "Dec."];
-	const createdMonth = month[postDate.getMonth()];
-	const createdDay = String(postDate.getDate()).padStart(2, "0");
-	const createdWeek = week[postDate.getDay()];
+	const week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+	const postDate = new Date(post.created);
 
 	return (
-		<div className="banner" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + post.mainBg})` }}>
-			<div className="max-width">
-				<div className="banner-contents">
-					<p className="today">
-						{createdMonth} <em>{createdDay}</em> {createdWeek}
-					</p>
-				</div>
+		<BannerWrap>
+			<div className="banner-contents">
+				<p className="today">
+					{month[postDate.getMonth()]} <em>{String(postDate.getDate()).padStart(2, "0")}</em> {week[postDate.getDay()]}
+				</p>
 			</div>
-		</div>
+		</BannerWrap>
 	);
 }
