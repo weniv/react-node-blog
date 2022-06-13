@@ -1,11 +1,11 @@
 import React from "react";
 
 import useFetch from "../hooks/useFetch";
-import Main from "../templates/main/Main";
+import Main from "../components/templates/main/Main";
 import Loading from "../components/loading/Loading";
 
 function MainPage() {
-	const { data, error, loading } = useFetch("http://localhost:3000/react-node-blog/data.json");
+	const { data, error, loading } = useFetch("./data.json");
 
 	if (error) {
 		console.log(error);

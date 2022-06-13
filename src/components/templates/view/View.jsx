@@ -1,12 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import WrapBox from "../../components/layouts/wrap/WrapBox";
-import Author from "../../components/author/Author";
-import Category from "../../components/category/Category";
+import WrapBox from "../../layouts/wrap/WrapBox";
+import Author from "../../author/Author";
+import Category from "../../category/Category";
 
 import "./view.css";
-import PostBanner from "../../components/banner/PostBanner";
+import PostBanner from "../../banner/PostBanner";
 
 export default function View({ posts }) {
 	const location = useLocation().pathname.slice(1);

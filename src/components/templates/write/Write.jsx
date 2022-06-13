@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import WriteBanner from "../../components/banner/WriteBanner";
-import WrapBox from "../../components/layouts/wrap/WrapBox";
+import WriteBanner from "../../banner/WriteBanner";
+import WrapBox from "../../layouts/wrap/WrapBox";
 
 import "./write.css";
 

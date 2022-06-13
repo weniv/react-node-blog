@@ -1,6 +1,6 @@
 import React from "react";
 
-import View from "../templates/view/View";
+import View from "../components/templates/view/View";
 import useFetch from "../hooks/useFetch";
 import Loading from "../components/loading/Loading";
 

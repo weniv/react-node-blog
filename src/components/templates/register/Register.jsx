@@ -1,10 +1,10 @@
 import React from "react";
 
-import WrapBox from "../../components/layouts/wrap/WrapBox";
-import Profile from "../../components/profile/Profile";
-import Input from "../../components/input/Input";
-import Button from "../../components/button/Button";
-import BannerWrap from "../../components/banner/BannerWrap";
+import WrapBox from "../../layouts/wrap/WrapBox";
+import Profile from "../../profile/Profile";
+import Input from "../../input/Input";
+import Button from "../../button/Button";
+import BannerWrap from "../../banner/BannerWrap";
 
 export default function Join() {
 	return (

@@ -1,12 +1,12 @@
 import React from "react";
 
-import Input from "../../components/input/Input";
-import Profile from "../../components/profile/Profile";
-import WrapBox from "../../components/layouts/wrap/WrapBox";
-import Button from "../../components/button/Button";
+import Input from "../../input/Input";
+import Profile from "../../profile/Profile";
+import WrapBox from "../../layouts/wrap/WrapBox";
+import Button from "../../button/Button";
 
 import "./mypage.css";
-import BlogBanner from "../../components/banner/BlogBanner";
+import BlogBanner from "../../banner/BlogBanner";
 
 export default function Mypage({ user, blog }) {
 	return (

@@ -1,9 +1,9 @@
 import React from "react";
 
-import BlogBanner from "../../components/banner/BlogBanner";
-import About from "../../components/layouts/about/About";
+import BlogBanner from "../../banner/BlogBanner";
+import About from "../../layouts/about/About";
 
-import Posts from "../../components/posts/Posts";
+import Posts from "../../posts/Posts";
 
 import "./main.css";
 

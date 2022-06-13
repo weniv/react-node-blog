@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 
 import useFetch from "../hooks/useFetch";
 import Loading from "../components/loading/Loading";
-import Mypage from "../templates/mypage/Mypage";
+import Mypage from "../components/templates/mypage/Mypage";
 
 export default function MyProfilePage({ isLogined }) {
 	const { data, error, loading } = useFetch("http://localhost:3000/react-node-blog/data.json");

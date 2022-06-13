@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import WrapBox from "../../components/layouts/wrap/WrapBox";
-import Button from "../../components/button/Button";
-import Input from "../../components/input/Input";
-import BannerWrap from "../../components/banner/BannerWrap";
+import WrapBox from "../../layouts/wrap/WrapBox";
+import Button from "../../button/Button";
+import Input from "../../input/Input";
+import BannerWrap from "../../banner/BannerWrap";
 
 export default function Login({ loginHandler }) {
 	function handleOnSubmit(e) {
