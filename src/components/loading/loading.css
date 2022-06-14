@@ -1,9 +1,0 @@
-.loading {
-	text-align: center;
-	background: url(../../assets/loader.svg) no-repeat 50% 0% / 10rem;
-	padding-top: 9rem;
-	font-weight: bold;
-	font-size: 1.4rem;
-	margin: 10rem auto;
-	text-transform: uppercase;
-}

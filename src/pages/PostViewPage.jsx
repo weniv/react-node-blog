@@ -1,11 +1,11 @@
 import React from "react";
+import Loading from "../components/Loading";
 
-import View from "../components/templates/view/View";
+import View from "../components/templates/View";
 import useFetch from "../hooks/useFetch";
-import Loading from "../components/loading/Loading";
 
-export default function PostViewPage({ isLogined }) {
-	const { data, error, loading } = useFetch("http://localhost:3000/react-node-blog/data.json");
+export function PostViewPage() {
+	const { data, error, loading } = useFetch(process.env.PUBLIC_URL + "/data.json");
 
 	if (error) {
 		console.log(error);

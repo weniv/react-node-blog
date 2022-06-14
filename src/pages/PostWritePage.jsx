@@ -1,7 +1,7 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
-import Write from "../components/templates/write/Write";
+import Write from "../components/templates/Write";
 
-export default function PostWritePage({ isLogined }) {
+export function PostWritePage({ isLogined }) {
 	return <>{isLogined ? <Write /> : <Navigate to="/login"></Navigate>}</>;
 }

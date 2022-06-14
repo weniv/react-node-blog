@@ -1,4 +1,5 @@
 import React from "react";
+
 import BannerWrap from "./BannerWrap";
 
 export default function PostBanner({ post }) {

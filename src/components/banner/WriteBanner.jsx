@@ -1,5 +1,7 @@
 import React from "react";
+
 import BannerWrap from "./BannerWrap";
+
 export default function WriteBanner() {
 	const dateInfo = Date().split(" ");
 	let dateWeek = dateInfo[0];
