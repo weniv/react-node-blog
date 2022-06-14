@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { COLORS } from "../../constants";
 
 import Button from "../Button";
 
@@ -20,7 +21,7 @@ const Section = styled.section`
 	margin-top: 8rem;
 
 	h2 {
-		color: var(--main-color);
+		color: ${COLORS.main};
 		font-size: 5rem;
 		font-weight: bold;
 	}
