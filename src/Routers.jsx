@@ -5,17 +5,15 @@ import { MainPage, LoginPage, MyProfilePage, RegisterPage, PostViewPage, PostWri
 
 function Routers({ loginHandler, isLogined, data }) {
 	return (
-		<>
-			<Routes>
-				<Route path="/" element={<MainPage />} />
-				<Route path="/register" element={<RegisterPage isLogined={isLogined} />} />
-				<Route path="/login" element={<LoginPage isLogined={isLogined} loginHandler={loginHandler} />} />
-				<Route path="/mypage" element={<MyProfilePage isLogined={isLogined} data={data} />} />
-				<Route path="/write" element={<PostWritePage isLogined={isLogined} />} />
-				<Route path="/view/:id" element={<PostViewPage />} />
-				<Route path="*" element={<NotFoundPage />} />
-			</Routes>
-		</>
+		<Routes>
+			<Route path="/" element={<MainPage />} />
+			<Route path="/register" element={<RegisterPage isLogined={isLogined} />} />
+			<Route path="/login" element={<LoginPage isLogined={isLogined} loginHandler={loginHandler} />} />
+			<Route path="/mypage" element={<MyProfilePage isLogined={isLogined} data={data} />} />
+			<Route path="/write" element={<PostWritePage isLogined={isLogined} />} />
+			<Route path="/view/:id" element={<PostViewPage />} />
+			<Route path="*" element={<NotFoundPage />} />
+		</Routes>
 	);
 }
 
