@@ -9,7 +9,9 @@ export default function BannerWrap({ children, mainBg }) {
 		<>
 			<GlobalStyle />
 			<Div className="banner" mainBg={mainBg}>
-				<div className="max-width">{children}</div>
+				<div className="max-width">
+					<div className="banner-contents">{children}</div>
+				</div>
 			</Div>
 		</>
 	);

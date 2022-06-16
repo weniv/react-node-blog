@@ -26,11 +26,9 @@ export default function WriteBanner() {
 
 	return (
 		<BannerWrap>
-			<div className="banner-contents">
-				<p className="today">
-					{dateInfo[1]}. <em>{dateInfo[2]}</em> {dateWeek}
-				</p>
-			</div>
+			<p className="today">
+				{dateInfo[1]}. <em>{dateInfo[2]}</em> {dateWeek}
+			</p>
 		</BannerWrap>
 	);
 }

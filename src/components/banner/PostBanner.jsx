@@ -11,11 +11,9 @@ export default function PostBanner({ post }) {
 
 	return (
 		<BannerWrap mainBg={mainBg}>
-			<div className="banner-contents">
-				<p className="today">
-					{month[postDate.getMonth()]} <em>{String(postDate.getDate()).padStart(2, "0")}</em> {week[postDate.getDay()]}
-				</p>
-			</div>
+			<p className="today">
+				{month[postDate.getMonth()]} <em>{String(postDate.getDate()).padStart(2, "0")}</em> {week[postDate.getDay()]}
+			</p>
 		</BannerWrap>
 	);
 }
